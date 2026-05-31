@@ -76,6 +76,9 @@ export default function Admin() {
             <p className="text-sm text-brand-slate text-center mt-1">
               Enter the system credentials to access portal messages
             </p>
+            <p className="text-xs text-brand-red font-semibold bg-brand-red/5 px-3 py-1 rounded-full border border-brand-red/10 mt-2.5">
+              Demo Password: admin123
+            </p>
           </div>
 
           <form onSubmit={handleLogin} className="space-y-4">

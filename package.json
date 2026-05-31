@@ -1,0 +1,12 @@
+{
+  "name": "she-can-foundation-task",
+  "version": "1.0.0",
+  "description": "Monorepo scripts to run the She Can Foundation Web Portal & Backend",
+  "scripts": {
+    "install-all": "npm install --prefix backend && npm install --prefix frontend",
+    "start-backend": "npm start --prefix backend",
+    "start-frontend": "npm run dev --prefix frontend"
+  },
+  "author": "Antigravity AI",
+  "license": "ISC"
+}
